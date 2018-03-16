@@ -1,0 +1,81 @@
+header{
+  align-items: center;
+  display:grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 0.2fr;
+
+  transition: 0.5s;
+  width:100%;
+}
+#logo{
+  height:40px;
+  width: 250px;
+}
+#home,#about,#ideas,#contact,#shakehands{
+  height: 40px;
+  width: 50px;
+  transition: 0.5s;
+}
+#about,#shakehands{
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+}
+#home:hover,#about:hover,#ideas:hover,#contact:hover,#shakehands:hover{
+  height: 60px;
+  width: 70px;
+}
+#about:hover,#shakehands:hover{
+  height: 70px;
+  width: 70px;
+}
+#mainlogo{
+  transition: 0.5s;
+}
+#main{
+
+  width: 100%;
+  background-image: url("./images/main_bg.jpg");
+  background-size: cover;
+}
+#mainlogo{
+  display:block;
+    margin:auto;
+    height: 400px;
+    width: 400px;
+}
+body{
+  background-image: url("./images/bodbg1.jpg");
+  background-size: cover;
+}
+#quote{
+  font-family: 'Shadows Into Light', cursive;
+  color: grey;
+  font-size: 30px;
+}
+#content{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+}
+hr{
+  width:70%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#main{
+  height:100%;
+  width:85%;
+  background-color: white;
+
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+#mainimg{
+  height: 350px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;

@@ -1,0 +1,17 @@
+<div id="shareholdersdropdown-content">
+      <p><br>Sharan Prakasham Subramanian<br>(Chairman, Framtid Group)<br></p>
+      <p><br>Athi Kesavan Nandhagopal<br>(Chief Executive Officer, Framtid Group)<br></p>
+      <p><br>Lumin Xavier Felix<br>(Managing Director, Framtid Group)<br></p>
+    </div>
+  </div>
+  <div class="dropdown"><br><br><br><br><br><br><br><br>
+  <span>Board of directors</span>
+
+  <div class="dropdown-content">
+    <p><br>Lumin Xavier Felix<br>(Managing Director, FGC)<br></p>
+    <p><br>Mouliswaraswamy K V<br>(Executive Director, FGC)<br></p>
+    <p><br>Shafi-U-Deen<br>(Chief Finanacial Director, FGC)<br></p>
+    <p><br>Thirukarthikeyan<br>(General Director, FGC)<br></p>
+    <p><br>Rajesh Krishnan Ganesan<br>(Programme Director, FGC)<br></p>
+    <p><br>Navith Ahamed<br>(Marketing & Business Development Director)<br></p>
+  </div>

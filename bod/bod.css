@@ -1,0 +1,167 @@
+header{
+  align-items: center;
+  display:grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 0.2fr;
+
+  transition: 0.5s;
+  width:100%;
+}
+#logo{
+  height:40px;
+  width: 250px;
+}
+#home,#about,#ideas,#contact,#shakehands{
+  height: 40px;
+  width: 50px;
+  transition: 0.5s;
+}
+#about,#shakehands{
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+}
+#home:hover,#about:hover,#ideas:hover,#contact:hover,#shakehands:hover{
+  height: 60px;
+  width: 70px;
+}
+#about:hover,#shakehands:hover{
+  height: 70px;
+  width: 70px;
+}
+#mainlogo{
+  transition: 0.5s;
+}
+#main{
+
+  width: 100%;
+  background-image: url("./images/main_bg.jpg");
+  background-size: cover;
+}
+#mainlogo{
+  display:block;
+    margin:auto;
+    height: 400px;
+    width: 400px;
+}
+body{
+  background-image: url("./images/bodbg1.jpg");
+  background-size: cover;
+}
+#quote{
+  font-family: 'Shadows Into Light', cursive;
+  color: grey;
+  font-size: 30px;
+}
+#content{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+}
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#main{
+  height:100%;
+  width:85%;
+  background-color: white;
+
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+#mainimg{
+  height: 350px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#mainimg2{
+  height: 700px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#bestwishes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#mainimg3{
+  height: 500px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer{
+  font-family: Segoe UI;
+  text-align: center;
+  font size: 20px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height:100px;
+}
+*{margin: 0;
+padding: 0;
+text-decoration: none;}
+#mainimg6{
+  height:500px;
+  width:377px;
+}
+#listofbods{
+  display: grid;
+  grid-template-columns: 1.2fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 1000px;
+  width:80%;
+  text-align: center;
+}
+#bodimg1{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+#listofbods{
+  margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    text-decoration: none;
+
+  }
+    a{
+    color:black;
+    text-decoration:none;
+}
+a:hover,a:focus{
+    text-decoration:none;
+}
+
+#foremost{
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+}
+#bodimg1:hover{
+  width:170px;
+  height:170px;
+  border-radius: 50%;
+  filter: brightness(50%);
+}
+#aboutbod:hover #bodimg1{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
